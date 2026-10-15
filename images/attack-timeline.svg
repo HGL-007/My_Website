@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="Manual operator takes long on each of five attack stages while an AI agent takes much less time">
+  <g font-family="Inter, system-ui, sans-serif" font-size="12">
+    <g fill="#8B98A5" text-anchor="middle">
+      <text x="200" y="52">Recon</text>
+      <text x="309" y="52">Access</text>
+      <text x="402" y="52">Persist</text>
+      <text x="499" y="52">Move</text>
+      <text x="580" y="52">Impact</text>
+    </g>
+    <text x="12" y="92" fill="#E6EDF3" font-weight="600">Manual operator</text>
+    <g fill="#FF4D5E">
+      <rect x="140" y="68" width="120" height="36" rx="6" opacity="0.95"/>
+      <rect x="264" y="68" width="90" height="36" rx="6" opacity="0.8"/>
+      <rect x="358" y="68" width="90" height="36" rx="6" opacity="0.65"/>
+      <rect x="452" y="68" width="94" height="36" rx="6" opacity="0.5"/>
+      <rect x="550" y="68" width="80" height="36" rx="6" opacity="0.35"/>
+    </g>
+    <text x="12" y="172" fill="#E6EDF3" font-weight="600">Agentic AI</text>
+    <g fill="#22D3EE">
+      <rect x="140" y="148" width="42" height="36" rx="6" opacity="0.95"/>
+      <rect x="186" y="148" width="32" height="36" rx="6" opacity="0.8"/>
+      <rect x="222" y="148" width="32" height="36" rx="6" opacity="0.65"/>
+      <rect x="258" y="148" width="34" height="36" rx="6" opacity="0.5"/>
+      <rect x="296" y="148" width="28" height="36" rx="6" opacity="0.35"/>
+    </g>
+    <text x="340" y="172" fill="#22D3EE">Same five stages, far less time</text>
+    <line x1="140" y1="212" x2="620" y2="212" stroke="#2B3A4B" stroke-width="2"/>
+    <path d="M612 206 L622 212 L612 218" fill="none" stroke="#2B3A4B" stroke-width="2"/>
+    <text x="140" y="236" fill="#8B98A5">Time</text>
+  </g>
+</svg>

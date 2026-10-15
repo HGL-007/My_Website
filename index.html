@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How modern cyber attacks work and how agentic AI is making them faster, cheaper, and harder to detect.">
+  <title>How Cyber Attacks Work Today</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Threat Briefing</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#overview">Overview</a>
+        <a href="#attack-chain">Attack Chain</a>
+        <a href="#agentic-ai">Agentic AI</a>
+        <a href="#defense">Defense</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="top" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Cybersecurity briefing</p>
+        <h1>How cyber attacks work today, and how agentic AI is changing them</h1>
+        <p class="lead">A short guide to the stages of a modern intrusion, and what happens when autonomous AI agents take over the slow, tedious parts.</p>
+        <p class="actions">
+          <a class="btn btn-primary" href="#attack-chain">See the attack chain</a>
+          <a class="btn" href="#agentic-ai">How AI changes it</a>
+        </p>
+      </div>
+      <img src="images/hero.svg" alt="Column chart comparing the relative time a manual operator and an agentic AI need for each of five attack stages; the AI needs far less time at every stage (illustrative)" width="520" height="400">
+    </div>
+  </div>
+
+  <main>
+
+    <section id="overview" class="block">
+      <div class="container">
+        <h2>The Problem</h2>
+        <p class="intro">Most modern cyber attacks do not start with a dramatic break-in. They begin with a convincing email, a reused password, or an exposed service, then move quietly through a network before causing damage. Many attackers are organized groups that sell access to other criminals, so a single intrusion can end in data theft, extortion, or ransomware. Agentic AI is making each step faster, cheaper, and harder to spot.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Entry</span>
+            <h3>Quiet entry</h3>
+            <p>Phishing, stolen passwords, and exposed services get attackers in without alarms.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Dwell time</span>
+            <h3>Slow and patient</h3>
+            <p>Attackers often stay inside a network for days or weeks before they act.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Outcome</span>
+            <h3>Many outcomes</h3>
+            <p>One foothold can be turned into data theft, extortion, or ransomware.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="attack-chain" class="block attack">
+      <div class="container">
+        <h2>How a Modern Attack Works</h2>
+        <p class="intro">Most intrusions follow the same five stages, whether the attacker is a lone criminal or a state-backed group.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="badge">01</span>
+            <h3>Reconnaissance</h3>
+            <p>Attackers collect information about the target from company websites, social media, job postings, leaked data, and scans for exposed systems.</p>
+          </article>
+          <article class="card">
+            <span class="badge">02</span>
+            <h3>Initial access</h3>
+            <p>The most common entry points are phishing emails, stolen or reused credentials, unpatched software, and misconfigured cloud services.</p>
+          </article>
+          <article class="card">
+            <span class="badge">03</span>
+            <h3>Persistence and escalation</h3>
+            <p>Once inside, attackers set up ways to return later and try to gain higher-level permissions, often by stealing more credentials.</p>
+          </article>
+          <article class="card">
+            <span class="badge">04</span>
+            <h3>Lateral movement</h3>
+            <p>They move across the network toward valuable targets such as file servers, backups, and identity systems.</p>
+          </article>
+          <article class="card">
+            <span class="badge">05</span>
+            <h3>Impact</h3>
+            <p>The final stage is data theft, ransomware encryption, or extortion, sometimes with threats to publish the stolen data.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="agentic-ai" class="block ai">
+      <div class="container">
+        <h2>How Agentic AI Boosts Attacks</h2>
+        <p class="intro">Agentic AI can plan, use tools, and check its own results. Applied to the stages above, it compresses the time and skill an attack needs.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Recon</span>
+            <h3>Automated research</h3>
+            <p>AI agents can gather and summarize public information about people and systems in minutes instead of days.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Access</span>
+            <h3>Personalized phishing at scale</h3>
+            <p>Language models write fluent, context-aware messages in any language, removing the errors that once made phishing easy to spot.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Access</span>
+            <h3>Voice and video impersonation</h3>
+            <p>Cloned voices and deepfake video can imitate executives on calls to approve payments or reset access.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Access</span>
+            <h3>Faster exploitation</h3>
+            <p>AI tools can help analyze newly disclosed vulnerabilities, shortening the time between disclosure and attack.</p>
+          </article>
+          <article class="card">
+            <span class="tag">All stages</span>
+            <h3>Adaptive, multi-step operations</h3>
+            <p>An agent can chain tools together, check whether each action worked, and try another approach without a human at every step.</p>
+          </article>
+          <article class="card">
+            <span class="tag">All stages</span>
+            <h3>Lower skill barrier</h3>
+            <p>Tasks that once needed experienced operators can be done by less skilled actors, which increases the number of attacks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="defense" class="block defense">
+      <div class="container split">
+        <div>
+          <h2>What Defenders Can Do</h2>
+          <p class="intro">No single control stops an AI-assisted attack, but a few habits make every stage harder.</p>
+          <div class="grid">
+            <article class="card">
+              <span class="tag">Access</span>
+              <h3>Phishing-resistant sign-in</h3>
+              <p>Use passkeys or hardware security keys instead of passwords alone.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Lateral movement</span>
+              <h3>Least privilege and segmentation</h3>
+              <p>Limit what each account can access so a stolen credential goes less far.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Access</span>
+              <h3>Patching and less exposure</h3>
+              <p>Keep internet-facing systems updated and remove services that are not needed.</p>
+            </article>
+            <article class="card">
+              <span class="tag">All stages</span>
+              <h3>AI-assisted detection</h3>
+              <p>Use AI to spot unusual behavior quickly, while keeping people in charge of high-impact decisions.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Impact</span>
+              <h3>Tested, isolated backups</h3>
+              <p>Keep backups separate from the main network and test restores regularly.</p>
+            </article>
+            <article class="card">
+              <span class="tag">Access</span>
+              <h3>Verification habits</h3>
+              <p>For urgent payment or access requests, confirm through a second channel, even if the voice or video looks real.</p>
+            </article>
+          </div>
+        </div>
+        <img class="shield" src="images/shield.svg" alt="Green shield with a check mark" width="240" height="260">
+      </div>
+    </section>
+
+    <section id="sources" class="block">
+      <div class="container">
+        <h2>Sources</h2>
+        <p class="intro">Starting references: <a href="https://attack.mitre.org/" target="_blank" rel="noopener">MITRE ATT&amp;CK</a> and <a href="https://www.cisa.gov/" target="_blank" rel="noopener">CISA</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 HG. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
